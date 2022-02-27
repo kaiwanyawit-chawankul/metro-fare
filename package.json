@@ -48,6 +48,8 @@
     "test:coverage": "yarn test --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "sec-audit": "hawkeye scan",
+    "quality": "lhci autorun",
+    "qualityL": "lhci autorun --config local.js",
     "test:e2e": "node_modules/.bin/cypress run",
     "test:open": "node_modules/.bin/cypress open"
   },
