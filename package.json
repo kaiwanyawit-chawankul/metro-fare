@@ -21,6 +21,7 @@
     "@types/react-leaflet": "^2.5.1",
     "@types/react-router-dom": "^5.1.6",
     "axios": "^0.21.1",
+    "cypress": "^8.6.0",
     "dotenv": "^8.2.0",
     "firebase": "^8.2.1",
     "http-proxy": "^1.18.1",
@@ -49,6 +50,8 @@
     "sec-audit": "hawkeye scan",
     "quality": "lhci autorun",
     "qualityL": "lhci autorun --config local.js"
+    "test:e2e": "node_modules/.bin/cypress run",
+    "test:open": "node_modules/.bin/cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"
